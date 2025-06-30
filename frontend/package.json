@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.8.0",
+    "@mantine/hooks": "^7.8.0",
+    "@primer/octicons-react": "^19.9.0",
+    "@sweetalert2/themes": "^5.0.16",
+    "@uiw/codemirror-extensions-langs": "^4.21.25",
+    "@uiw/codemirror-theme-abyss": "^4.21.25",
+    "@uiw/codemirror-theme-console": "^4.21.25",
+    "@uiw/react-codemirror": "^4.21.25",
+    "graphviz-react": "^1.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.22.3",
+    "sass": "^1.75.0",
+    "sweetalert2": "^11.6.13",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
